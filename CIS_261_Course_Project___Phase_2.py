@@ -95,7 +95,7 @@ if __name__ == "__main__":
         taxrate = GetTaxRate()
         print()
     
-        # append information to the file
+        # append information to the dictionary
         EmpDetail = [fromdate, todate, empname, hours, hourlyrate, taxrate]
     
     print()
